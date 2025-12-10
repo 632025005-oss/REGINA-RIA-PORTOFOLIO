@@ -13,7 +13,7 @@ Saya lulusan **S1 Pendidikan Matematika cum laude** dengan **3 tahun pengalaman 
 - ✅ **Transaction Accuracy:** 99.8% (target: 98%)
 - ✅ **Customer Satisfaction:** 4.7/5.0 score
 - ✅ **Daily Transactions:** 180-200 transaksi
-- ✅ **Cash Handling:** Hingga Rp 1 miliar/hari
+- ✅ **Cash Handling:** 
 - ✅ **Team Leadership:** Mentor untuk 3 teller baru
 
 ---
