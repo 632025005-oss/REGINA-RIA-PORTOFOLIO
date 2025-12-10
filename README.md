@@ -1,6 +1,6 @@
 # # 👋 Regina Ria Aurellia | Banking & Mathematics Professional
 
-> **S1 Matematika Cum Laude | Ex-Teller BCA | Python & Data Enthusiast**  
+> **S1 Matematika Cum Laude | Ex-Teller BCA | Mahasiswa Data Analysis**  
 > Menggabungkan ketelitian matematika dengan pengalaman perbankan untuk solusi finansial berbasis data.
 
 ---
