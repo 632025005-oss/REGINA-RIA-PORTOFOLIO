@@ -161,11 +161,10 @@ col1, col2 = st.columns([1, 2])
 with col1:
     st.markdown("""
     <div class="photo-frame">
-        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+        <img src="https://raw.githubusercontent.com/ReginaRiaAurellia/portfolio/main/static/nama-foto.jpeg" 
              style="width:100%; height:100%; object-fit:cover;">
     </div>
     """, unsafe_allow_html=True)
-    
     # Informasi kontak cepat
     st.markdown("""
     <div style="text-align:center; margin-top:20px;">
