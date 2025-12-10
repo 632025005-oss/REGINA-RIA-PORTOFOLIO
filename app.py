@@ -179,7 +179,7 @@ with col2:
         <h1 style="color: #ffffff; margin-bottom: 10px;">🏦 Regina Ria Aurellia</h1>
         <h3 style="color: #00ffff; margin-bottom: 20px;">Banking Professional | Data Enthusiast</h3>
         
-        <p style="font-size: 1.5rem; color: #cccccc; line-height: 1.6;">
+        
         Lulusan S1 Pendidikan Matematika Cum Laude, dengan pengalaman 
         3 tahun sebagai Teller di BCA. Menggabungkan kemampuan analitis 
         matematika dengan pengalaman praktis perbankan untuk menciptakan solusi berbasis data.
