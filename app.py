@@ -180,11 +180,10 @@ with st.container():
     st.markdown("### Profil Singkat")
     col1, col2 = st.columns([3, 1])
 
-import streamlit as st
 
 # Container untuk styling
 with st.container():
-    st.markdown("### Profil Singkat")
+    st.markdown("### Teller Berpengalaman - Data Analyis")
     col1, col2 = st.columns([3, 1])
     
     with col1:
@@ -357,7 +356,7 @@ with col2:
                 <li>PIC (Person In Charge) Proyek Kaizen untuk efisiensi proses</li>
                 <li>Mentor dan pelatih untuk 3 teller baru</li>
                 <li>Penanganan kas harian hingga Rp 1 Miliar tanpa selisih</li>
-                <li>Nilai kepuasan nasabah konsisten 4.7/5.0</li>
+                <li>Nilai kepuasan nasabah konsisten 4.9/5.0</li>
             </ul>
         </div>
         <div class="timeline-item">
@@ -376,11 +375,11 @@ with col3:
             Pengalaman Lainnya
         </h4>
         <div class="timeline-item">
-            <strong>Tutor Matematika & Keuangan</strong><br>
-            <em style="color: #888888;">Privat & Bimbingan Belajar Ganesha Operation</em><br>
-            <small style="color: #666666;">2021 - 2023 • Paruh Waktu</small>
+            <strong>Tutor Matematika</strong><br>
+            <em style="color: #888888;">Privat & Bimbingan Belajar</em><br>
+            <small style="color: #666666;">2021 - 2025 • Paruh Waktu</small>
             <p style="color: #aaaaaa; font-size: 0.9rem; margin-top: 5px;">
-            Mengajar matematika, statistika, dan konsep keuangan untuk siswa SMA dan mahasiswa.
+            Mengajar matematika, untuk siswa SD, SMP dan SMA.
             </p>
         </div>
         <div class="timeline-item">
@@ -447,7 +446,7 @@ with col1:
                 </div>
             </div>
             <div style="display: flex; justify-content: space-between; margin: 12px 0;">
-                <span style="color: #cccccc;">Sistem Perbankan (Core Banking)</span>
+                <span style="color: #cccccc;">Teller Bank</span>
                 <div style="display: flex; gap: 3px;">
                     <div style="width: 12px; height: 12px; background: #00ffff; border-radius: 2px;"></div>
                     <div style="width: 12px; height: 12px; background: #00ffff; border-radius: 2px;"></div>
@@ -684,7 +683,8 @@ with col2:
     """, unsafe_allow_html=True)
 
 # ================= FOOTER & KONTAK =================
-st.markdown("""
+# Footer section - PASTIKAN ada unsafe_allow_html=True
+st.markdown(r"""
 <div class="card" style="text-align: center; margin-top: 50px;">
     <h3 style="color: #ffffff;">🤝 Mari Berkolaborasi!</h3>
     <p style="color: #cccccc; margin: 20px 0; font-size: 1.1rem;">
@@ -708,20 +708,12 @@ st.markdown("""
                 💻 GitHub
             </div>
         </a>
-        <a href="https://linkedin.com/in/reginariaaurellia" style="text-decoration: none;">
-            <div style="background: linear-gradient(135deg, #0A66C2 0%, #004182 100%); color: white; padding: 12px 25px; border-radius: 25px; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,0.1); min-width: 150px; justify-content: center;">
-                💼 LinkedIn
-            </div>
-        </a>
     </div>
     
     <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #333333;">
         <p style="color: #888888; font-size: 0.9rem; margin-top: 20px;">
         <em>"Bridging banking operations with data science – dari teller counter ke data dashboard"</em><br>
         © 2024 Regina Ria Aurellia • Portfolio Digital Dibuat dengan Python & Streamlit
-        </p>
-        <p style="color: #666666; font-size: 0.8rem; margin-top: 10px;">
-        Terakhir diperbarui: Desember 2024 • Tersedia untuk wawancara
         </p>
     </div>
 </div>
