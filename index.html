@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Saya</title>
+</head>
+<body>
+    <h1>Ini Website Saya!</h1>
+    <p>Ini foto saya:</p>
+    
+    <!-- Tampilkan foto dari folder static -->
+    <img src="{{ url_for('static', filename='foto.jpeg') }}" 
+         width="300" 
+         alt="Foto Saya">
+    
+    <p>Website dibuat dengan Flask.</p>
+</body>
+</html>
