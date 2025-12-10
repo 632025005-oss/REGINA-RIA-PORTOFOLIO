@@ -683,41 +683,29 @@ with col2:
     """, unsafe_allow_html=True)
 
 # ================= FOOTER & KONTAK =================
-# Footer section - PASTIKAN ada unsafe_allow_html=True
-st.markdown(r"""
-<div class="card" style="text-align: center; margin-top: 50px;">
-    <h3 style="color: #ffffff;">🤝 Mari Berkolaborasi!</h3>
-    <p style="color: #cccccc; margin: 20px 0; font-size: 1.1rem;">
-    Saya terbuka untuk peluang karir dalam perbankan digital, analisis data perbankan, 
-    atau peran yang menggabungkan keahlian teknis dengan pengalaman operasional perbankan.
-    </p>
-    
-    <div style="display: flex; justify-content: center; gap: 20px; margin: 30px 0; flex-wrap: wrap;">
-        <a href="mailto:aurelliarial0@gmail.com" style="text-decoration: none;">
-            <div style="background: linear-gradient(135deg, #00ffff 0%, #0088ff 100%); color: black; padding: 12px 25px; border-radius: 25px; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,0.1); min-width: 150px; justify-content: center;">
-                📧 Email Saya
-            </div>
-        </a>
-        <a href="https://wa.me/6281225805910" style="text-decoration: none;">
-            <div style="background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%); color: black; padding: 12px 25px; border-radius: 25px; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,0.1); min-width: 150px; justify-content: center;">
-                💬 WhatsApp
-            </div>
-        </a>
-        <a href="https://github.com/ReginaRiaAurellia" style="text-decoration: none;">
-            <div style="background: linear-gradient(135deg, #333333 0%, #000000 100%); color: white; padding: 12px 25px; border-radius: 25px; font-weight: 600; display: flex; align-items: center; gap: 8px; border: 1px solid rgba(255,255,255,0.1); min-width: 150px; justify-content: center;">
-                💻 GitHub
-            </div>
-        </a>
-    </div>
-    
-    <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #333333;">
-        <p style="color: #888888; font-size: 0.9rem; margin-top: 20px;">
-        <em>"Bridging banking operations with data science – dari teller counter ke data dashboard"</em><br>
-        © 2024 Regina Ria Aurellia • Portfolio Digital Dibuat dengan Python & Streamlit
-        </p>
-    </div>
-</div>
-""", unsafe_allow_html=True)
+# Simple footer tanpa HTML kompleks
+st.markdown("---")
+st.header("🤝 Mari Berkolaborasi!")
+st.write("""
+Saya terbuka untuk peluang karir dalam perbankan digital, analisis data perbankan, 
+atau peran yang menggabungkan keahlian teknis dengan pengalaman operasional perbankan.
+""")
+
+# Tombol menggunakan st.columns
+col1, col2, col3 = st.columns(3)
+with col1:
+    if st.button("📧 Email Saya", use_container_width=True):
+        st.write("Email: aurelliarial0@gmail.com")
+with col2:
+    if st.button("💬 WhatsApp", use_container_width=True):
+        st.write("WA: 0812 2580 5910")
+with col3:
+    if st.button("💻 GitHub", use_container_width=True):
+        st.write("GitHub: ReginaRiaAurellia")
+
+st.markdown("---")
+st.caption("© 2024 Regina Ria Aurellia • Portfolio Digital")
+st.caption("Terakhir diperbarui: Desember 2024 • Tersedia untuk wawancara")
 
 # ================= SIDEBAR =================
 with st.sidebar:
