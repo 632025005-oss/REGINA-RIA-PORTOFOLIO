@@ -169,7 +169,7 @@ with col1:
     # Informasi kontak cepat
     st.markdown("""
     <div style="text-align:center; margin-top:20px;">
-        <p style="color:#00ffff; font-weight:600;">📧 aurelliarial0@gmail.com</p>
+        <p style="color:#00ffff; font-weight:600;">📧 aurelliaria10@gmail.com</p>
         <p style="color:#00ffff; font-weight:600;">📱 081 225 805 910</p>
         <p style="color:#888888;">📍 Salatiga, Jawa Tengah, Indonesia</p>
     </div>
@@ -179,14 +179,17 @@ with col2:
     st.markdown("""
     <div class="card">
         <h1 style="color: #ffffff; margin-bottom: 10px;">🏦 Regina Ria Aurellia</h1>
-        <h3 style="color: #00ffff; margin-bottom: 20px;">Profesional Perbankan | Peminat Data</h3>
+        <h3 style="color: #00ffff; margin-bottom: 20px;">Profesional Perbankan | Data Analysis </h3>
         
-        <p style="font-size: 1.1rem; color: #cccccc; line-height: 1.6;">
-        Lulusan <strong>S1 Pendidikan Matematika Cum Laude</strong> dengan pengalaman 
-        <strong>3 tahun sebagai Teller di BCA</strong>. Menggabungkan kemampuan analitis 
-        matematika dengan pengalaman praktis perbankan untuk menciptakan solusi berbasis data 
-        yang efektif dan efisien dalam operasional perbankan modern.
-        </p>
+       # ✅ BENAR - ini yang harusnya di file app.py
+st.markdown("""
+<p style="font-size: 1.1rem; color: #cccccc; line-height: 1.6;">
+Lulusan <strong>S1 Pendidikan Matematika Cum Laude</strong> dengan pengalaman 
+<strong>3 tahun sebagai Teller di BCA</strong>. Menggabungkan kemampuan analitis 
+matematika dengan pengalaman praktis perbankan untuk menciptakan solusi berbasis data 
+yang efektif dan efisien dalam operasional perbankan modern.
+</p>
+""", unsafe_allow_html=True)  # ← INI YANG PENTING!
         
         <div style="display: flex; gap: 15px; margin-top: 25px;">
             <div style="background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%); color: black; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
