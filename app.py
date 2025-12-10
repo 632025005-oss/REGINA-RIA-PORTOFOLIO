@@ -195,7 +195,7 @@ with st.container():
         
         <div style="display: flex; gap: 15px; margin-top: 25px;">
             <div style="background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%); color: black; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
-                🎓 Cum Laude
+                 Cum Laude
             </div>
             <div style="background: linear-gradient(135deg, #00ffff 0%, #0088ff 100%); color: black; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
                 🏦 Pengalaman BCA
