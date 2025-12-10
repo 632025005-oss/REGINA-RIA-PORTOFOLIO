@@ -180,6 +180,10 @@ with st.container():
     st.markdown("### Profil Singkat")
     col1, col2 = st.columns([3, 1])
     
+with st.container():
+    st.markdown("### Profil Singkat")
+    col1, col2 = st.columns([3, 1])
+    
     with col1:
         st.write("""
         Lulusan **S1 Pendidikan Matematika Cum Laude** dengan pengalaman 
@@ -188,27 +192,13 @@ with st.container():
         """)
     
     with col2:
-        # Badge menggunakan st.columns
-        st.markdown("🎓 **Cum Laude**")
-        st.markdown("🏦 **BCA Experience**")
-        st.markdown("📊 **Data Analysis**")
-        
-        <div style="display: flex; gap: 15px; margin-top: 25px;">
-            <div style="background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%); color: black; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
-                 Cum Laude
-            </div>
-            <div style="background: linear-gradient(135deg, #00ffff 0%, #0088ff 100%); color: black; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
-                🏦 Pengalaman BCA
-            </div>
-            <div style="background: linear-gradient(135deg, #ff00ff 0%, #cc00cc 100%); color: white; padding: 8px 15px; border-radius: 20px; font-weight: 600; border: 1px solid rgba(255,255,255,0.1);">
-                📊 Analisis Data
-            </div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+        # Badge menggunakan st.metric atau st.info
+        st.markdown("---")
+        st.markdown("**🎓 Cum Laude**")
+        st.markdown("**🏦 BCA Experience**")
+        st.markdown("**📊 Data Analysis**")
 
-st.markdown("<br>", unsafe_allow_html=True)
-
+st.markdown("---")
 # ================= METRIK KINERJA UTAMA =================
 st.markdown('<h2 class="section-header">📊 Sorotan Kinerja di BCA</h2>', unsafe_allow_html=True)
 
