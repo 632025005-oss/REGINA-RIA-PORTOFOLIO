@@ -159,12 +159,11 @@ st.markdown("""
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    # Foto profil
+    with col1:
     st.image(
-        "https://raw.githubusercontent.com/ReginaRiaAurellia/portfolio/main/static/foto.jpg",
+        "https://raw.githubusercontent.com/ReginaRiaAurellia/portfolio/main/foto.jpg",
         width=200
     )
-    
     # Informasi kontak cepat
     st.markdown("""
     <div style="text-align:center; margin-top:20px;">
