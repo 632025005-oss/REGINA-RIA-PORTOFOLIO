@@ -179,7 +179,39 @@ with col1:
 with st.container():
     st.markdown("### Profil Singkat")
     col1, col2 = st.columns([3, 1])
-    
+
+# CSS untuk styling
+st.markdown("""
+<style>
+    .badge-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 25px;
+    }
+    .badge {
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-weight: 600;
+        text-align: center;
+        border: 1px solid rgba(255,255,255,0.1);
+    }
+    .badge-green {
+        background: linear-gradient(135deg, #00ff88 0%, #00cc66 100%);
+        color: black;
+    }
+    .badge-blue {
+        background: linear-gradient(135deg, #00ffff 0%, #0088ff 100%);
+        color: black;
+    }
+    .badge-purple {
+        background: linear-gradient(135deg, #ff00ff 0%, #cc00cc 100%);
+        color: white;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# Container untuk styling
 with st.container():
     st.markdown("### Profil Singkat")
     col1, col2 = st.columns([3, 1])
@@ -192,13 +224,16 @@ with st.container():
         """)
     
     with col2:
-        # Badge menggunakan st.metric atau st.info
-        st.markdown("---")
-        st.markdown("**🎓 Cum Laude**")
-        st.markdown("**🏦 BCA Experience**")
-        st.markdown("**📊 Data Analysis**")
+        # Badge menggunakan CSS class
+        st.markdown("""
+        <div class="badge-container">
+            <div class="badge badge-green">🎓 Cum Laude</div>
+            <div class="badge badge-blue">🏦 Pengalaman BCA</div>
+            <div class="badge badge-purple">📊 Analisis Data</div>
+        </div>
+        """, unsafe_allow_html=True)
 
-st.markdown("---")
+st.markdown("<br>", unsafe_allow_html=True)
 # ================= METRIK KINERJA UTAMA =================
 st.markdown('<h2 class="section-header">📊 Sorotan Kinerja di BCA</h2>', unsafe_allow_html=True)
 
