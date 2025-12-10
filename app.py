@@ -159,7 +159,6 @@ st.markdown("""
 col1, col2 = st.columns([1, 2])
 
 with col1:
-    with col1:
     st.image(
         "https://raw.githubusercontent.com/ReginaRiaAurellia/portfolio/main/foto.jpg",
         width=200
