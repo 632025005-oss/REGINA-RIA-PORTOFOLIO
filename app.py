@@ -121,27 +121,25 @@ with col2:
         <h1 style="color: #2d3748; margin-bottom: 10px;">🏦 Regina Ria Aurellia</h1>
         <h3 style="color: #667eea; margin-bottom: 20px;">Banking Professional | Data Enthusiast</h3>
         
-        <p style="font-size: 1.1rem; color: #4a5568; line-height: 1.6;">
-        Lulusan <strong>S1 Pendidikan Matematika Cum Laude</strong> dengan pengalaman 
-        <strong>3 tahun sebagai Teller di BCA</strong>. Menggabungkan kemampuan analitis 
-        matematika dengan pengalaman praktis perbankan untuk menciptakan solusi berbasis data.
-        </p>
-        
-        <div style="display: flex; gap: 15px; margin-top: 25px;">
-            <div style="background: #48bb78; color: white; padding: 8px 15px; border-radius: 20px; font-weight: 600;">
-                🎓 Cum Laude
-            </div>
-            <div style="background: #4299e1; color: white; padding: 8px 15px; border-radius: 20px; font-weight: 600;">
-                🏦 BCA Experience
-            </div>
-            <div style="background: #9f7aea; color: white; padding: 8px 15px; border-radius: 20px; font-weight: 600;">
-                📊 Data Analysis
-            </div>
-        </div>
-    </div>
-    """, unsafe_allow_html=True)
+      # Regina Ria Aurellia
 
-st.markdown("<br>", unsafe_allow_html=True)
+## Banking Professional | Data Enthusiast
+
+<p style="font-size: 1.1rem; color: #4a5568; line-height: 1.6;">
+Lulusan <strong>S1 Pendidikan Matematika Cum Laude</strong> dengan <strong>3 tahun sebagai Teller di BCA</strong>. Menggabungkan latar belakang matematika dengan pengalaman praktis perbankan untuk menciptakan solusi data yang efektif.
+</p>
+
+<div style="display: flex; gap: 15px; margin-top: 25px;">
+    <div style="background: #48bb78; color: white; padding: 8px 12px; border-radius: 5px;">
+        Cum Laude
+    </div>
+    <div style="background: #4299e1; color: white; padding: 8px 12px; border-radius: 5px;">
+        BCA Experience
+    </div>
+    <div style="background: #9f7aea; color: white; padding: 8px 12px; border-radius: 5px;">
+        Analytics Skills
+    </div>
+</div>
 
 # ================= PERFORMANCE METRICS =================
 st.markdown('<h2 class="section-header">📊 Performance Highlights at BCA</h2>', unsafe_allow_html=True)
